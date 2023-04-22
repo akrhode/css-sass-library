@@ -21,11 +21,11 @@
       }
       .text-hover-#{$key}-light-#{$i} {
         &:hover {
-          color: mix(white, $val, $i * 1%);
+          color: mix(white, $val, $i * 10%);
         }
       }
       .bg-#{$key}-light-#{$i} {
-        background-color: mix(white, $val, $i * 1%);
+        background-color: mix(white, $val, $i * 10%);
       }
     }
 
